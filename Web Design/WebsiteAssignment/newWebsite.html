@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cesar's Web Page</title>
+    <style>
+        body {
+            background-image: url("picture/pattern.avif");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0; /* Remove default margin to make the layout edge-to-edge */
+            font-family: Arial, sans-serif; /* Specify a generic font-family for text */
+        }
+
+        .colorful {
+            color: rgb(0, 1, 5);
+            text-align: center; /* Center the heading text */
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the header */
+        }
+
+        img {
+            max-width: 100%; /* Make the image responsive by setting its maximum width to 100% */
+            display: block; /* Remove float and add display: block for images */
+            margin: 0 auto; /* Center the image horizontally */
+            border-radius: 50px;
+        }
+
+        .container {
+            max-width: 600px; /* Add a maximum width to your content for better readability */
+            margin: 0 auto; /* Center the content horizontally within the container */
+            padding: 20px;
+        }
+
+        ul {
+            list-style:square; /* Remove list bullets */
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px; /* Add some spacing between list items */
+        }
+
+        hr {
+            border:none;
+            border-top: 10px solid #331992; /* Add a horizontal line separator */
+            margin: 20px 0;
+        }
+
+        /* Media query for smaller screens */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px; /* Reduce padding for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="colorful">Cesar's Web Page</h1>
+    </header>
+    <div class="container">
+        <img src="picture/cesar1.jpg" alt="Cesar's Photo">
+        <h3>Welcome to my brand new page, I hope you like it!</h3>
+        <hr>
+        <h4>Important things about me</h4>
+        <ul>
+            <li>Soccer player</li>
+            <li>Computer science major</li>
+            <li>Data science minor</li>
+        </ul>
+        <hr>
+        <h4>Social Media</h4>
+        <ul>
+            <li><a href="https://bscsports.net/sports/mens-soccer/roster/cesar-hurtado/7151" target="_blank">BSC Sports</a></li>
+            <li><a href="file:///C:/Users/Cesar/OneDrive/Desktop/Web%20Design/WebsiteAssignment/extra.html" target="_blank">Contact Information</a></li>
+            <li><a href="https://github.com/Cesarhurtadoo" target="blank">GitHub</a></li>
+        </ul>
+    </div>
+</body>
+</html>
